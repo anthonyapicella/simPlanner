@@ -4,6 +4,15 @@ body {
   line-height: 1;
 }
 
+h1 {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+h5 {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 600;
+}
+
 textarea{
   background: transparent;
   border: none;
