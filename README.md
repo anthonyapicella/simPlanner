@@ -16,6 +16,8 @@ A simple calendar app for scheduling your werk day.
 
 ---
 
-## Link
+## Links
 
->Visit [simPlanner](https://anthonyapicella.github.io/simPlanner/) to start organizing your day!
+[simPlanner deployed app](https://anthonyapicella.github.io/simPlanner/)
+
+[GitHub Repository](https://github.com/anthonyapicella/simPlanner)
