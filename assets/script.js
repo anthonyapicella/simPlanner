@@ -2,6 +2,17 @@
 
 $("#currentDay").text(moment().format('MMMM Do, YYYY | h:mm a'));
 
+var clearAll = document.getElementById("clear-my-schedule");
+
+// add event listener to execute function on click
+
+clearAll.addEventListener("click", function () {
+    // clear storage
+    localStorage.clear();
+    location.reload();
+});
+
+
 // create function to check time and compare with 'time-block' -- change colors accordingly
 
 var currentTime = moment();
