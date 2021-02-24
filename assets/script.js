@@ -22,3 +22,15 @@ $(".time-block").each(function colorCode() {
     }
 })
 
+// create function that saves entries to local storage and executes on click 'saveBtn'
+
+$(".saveBtn").on("click", function() {
+    // use (this).'relative' and id/class to pull key and value
+    var hour = $(this).parent().attr("id");
+    var value = $(this).siblings(".description").val();
+    // save to storage
+    localStorage.setItem(hour, value);
+});
+
+
+// pull any previously saved entries and display on page load...

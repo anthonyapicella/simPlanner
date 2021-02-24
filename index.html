@@ -28,87 +28,83 @@
         <h1 class="display-3">simPlanner</h1>
         <p class="lead">A simple calendar app for scheduling your werk day</p>
         <p id="currentDay" class="lead"></p>
-        <button id="clear-my-day" type="button" class="btn btn-light">Clear my day!</button>
+        <button id="clear-my-schedule" type="button" class="btn btn-light">Clear my schedule!</button>
     </header>
       
-    <div class="container">
-        
-      <div class="container">
-          
-        <div id="9" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>9 AM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-        
-        <div id="10" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>10 AM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-          
-        <div id="11" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>11 AM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-          
-        <div id="12" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>12 PM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-         
-        <div id="13" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>1 PM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-          
-        <div id="14" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>2 PM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-          
-        <div id="15" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>3 PM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-          
-        <div id="16" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>4 PM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-          
-        <div id="17" class="row time-block">
-          <div class="col-md-1 hour">
-            <h5>5 PM</h5>
-          </div>
-          <textarea class="col-md-10 description"></textarea>
-          <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
-        </div>
-        
-      </div>
+    <div id="hours-in-day" class="container">
       
+      <div id="9" class="row time-block">
+        <div class="col-md-1 hour">
+          9AM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+        
+      <div id="10" class="row time-block">
+        <div class="col-md-1 hour">
+          10AM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+
+      <div id="11" class="row time-block">
+        <div class="col-md-1 hour">
+          11AM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+        
+      <div id="12" class="row time-block">
+        <div class="col-md-1 hour">
+          12PM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+       
+      <div id="13" class="row time-block">
+        <div class="col-md-1 hour">
+          1PM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+        
+      <div id="14" class="row time-block">
+        <div class="col-md-1 hour">
+          2PM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+        
+      <div id="15" class="row time-block">
+        <div class="col-md-1 hour">
+          3PM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+        
+      <div id="16" class="row time-block">
+        <div class="col-md-1 hour">
+          4PM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+        
+      <div id="17" class="row time-block">
+        <div class="col-md-1 hour">
+          5PM
+        </div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save"></i></button>
+      </div>
+    
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
